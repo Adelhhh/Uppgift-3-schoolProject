@@ -1,7 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native'; 
 
 
 export default function Main({navigation, route}) {
@@ -20,11 +20,11 @@ export default function Main({navigation, route}) {
       backgroundColor: '#00ff00',
       alignItems: 'center',
       justifyContent: 'center',
-      marginTop: 0
+      marginTop: 5
     },
 storvit: {
     fontSize: 48,
     color: '#ffffff',
     fontWeight: 'bold'
     }
-});
+}); 

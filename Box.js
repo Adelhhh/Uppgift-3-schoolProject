@@ -4,7 +4,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 
-export default function Box({props}) {
+export default function Box(props) {
 
     return (
         <View style={styles.container}>
@@ -20,9 +20,13 @@ export default function Box({props}) {
       backgroundColor: '#0000ff',
       alignItems: 'center',
       justifyContent: 'center',
-      marginTop: 0
+      margin: 10,
+      borderRadius: 5
     },
+    
     boxtext: {
     color: '#ffffff',
+    fontSize: 24,
+    margin: 10,
     }
 });

@@ -4,11 +4,11 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 
-export default function Apelsin({navigation}) {
+export default function Apelsinjuice({navigation}) {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.apelsin}>Apelsin</Text>
+            <Text style={styles.Apelsinjuice}>Apelsinjuice</Text>
       </View>
 
     );
@@ -22,7 +22,7 @@ export default function Apelsin({navigation}) {
       justifyContent: 'center',
       marginTop: 0
     },
-apelsin: {
+    Apelsinjuice: {
     fontSize: 48,
     color: '#ffffff'
     }
